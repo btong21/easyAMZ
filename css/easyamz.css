@@ -1,0 +1,11 @@
+#categories {
+	color: white;
+}
+
+#homeHeading {
+	padding-left: 0px;
+}
+
+header .header-content .header-content-inner h1 {
+	text-transform: none;
+}
