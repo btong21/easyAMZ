@@ -4,22 +4,24 @@
 
 #homeHeading {
 	padding-left: 0px;
+	margin-bottom: 50px;
 }
+
 
 header .header-content .header-content-inner h1 {
 	text-transform: none;
 }
 
-
-
 	#mailchimp input {
 		border: medium none;
-    color: gray;
+    color: #a6a6a6;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 10px;
-    padding: 18px 10px;
+    padding: 10px 10px;
     width: 300px;
+    height: 54px;
+    display: inline;
 	/*	border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;*/
@@ -30,26 +32,16 @@ header .header-content .header-content-inner h1 {
 			background: #FF9900;
 			color: #fff;
 			cursor: pointer;
-			font-size: 16px;
+			font-size: 18px;
 			width: 150px;
 			padding: 8px 0;
-
-
+			display: inline;
 
 		}
 			#mailchimp input[type="submit"]:hover { background: #222222 }
 
-
-
-.input {
-  display: flex;
-  align-items: center;
-}
-
-
 .button {
-  height: 44px;
-  border: none;
+  height: 54px;
 }
 
   
@@ -63,10 +55,14 @@ header .header-content .header-content-inner h1 {
   border-radius: 5px 0 0 5px;
 }
 
-  
 
 input:focus {
   outline: none;
   outline: 2px solid #FF9900;
+}
+
+.clear {
+	width: 50px;
+
 }
  
