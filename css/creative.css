@@ -239,7 +239,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: #222222;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -270,8 +270,9 @@ header .header-content .header-content-inner p {
   font-size: 18px;
 }
 .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
+  opacity: 0.85;
 }
+
 .portfolio-box:focus {
   outline: none;
 }
@@ -364,7 +365,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
   background-image: none;
 }
-.btn-primary.disabled,
+.btn-.disabled,
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary,
 .btn-primary.disabled:hover,
