@@ -7,6 +7,10 @@
 	margin-bottom: 50px;
 }
 
+#mainNav {
+	padding-bottom: 15px;
+}
+
 
 header .header-content .header-content-inner h1 {
 	text-transform: none;
@@ -37,7 +41,7 @@ header .header-content .header-content-inner h1 {
 			padding: 8px 0;
 
 		}
-			#mailchimp input[type="submit"]:hover { background: #222222 }
+			#mailchimp input[type="submit"]:hover { background: #323C47 }
 
 .button {
   height: 54px;
@@ -63,7 +67,7 @@ input:focus {
 }
 
 .browsemarket {
-	background: #222222;
+	background: #323C47;
 }
 
 .browsetext {
