@@ -1,10 +1,33 @@
+@font-face {
+	font-family:'robotoregular';
+	src:url(../fonts/Roboto-Regular.ttf); 
+}
+
+@font-face {
+	font-family:'robotolight';
+	src:url(../fonts/Roboto-Light.ttf); 
+}
+
+@font-face {
+	font-family:'robotothin';
+	src:url(../fonts/Roboto-Thin.ttf); 
+}
+
 #categories {
 	color: white;
 }
 
 #homeHeading {
-	padding-left: 0px;
 	margin-bottom: 50px;
+	font-family: 'robotothin', sans-serif;
+	color: lightgrey;
+
+}
+
+.logotop {
+	height: 40px;
+	margin-left: 10px;
+	margin-top: -5px;
 }
 
 #mainNav {
@@ -14,15 +37,17 @@
 
 header .header-content .header-content-inner h1 {
 	text-transform: none;
-
+	text-align: center;
 }
+
 
 	#mailchimp input {
 		border: medium none;
     color: #a6a6a6;
-    font-family: sans-serif;
+    font-family: 'robotolight';
     font-size: 18px;
     margin-bottom: 10px;
+   
     padding: 10px 10px;
     width: 300px;
     height: 54px;
@@ -47,6 +72,11 @@ header .header-content .header-content-inner h1 {
   height: 54px;
 }
 
+.clear{
+	margin-right: 50%;
+	text-align: center;
+}
+
 
 input:focus {
   outline: none;
@@ -54,7 +84,11 @@ input:focus {
 }
 
 .emailsupportt {
-	margin-top: 50px;
+	margin-top: 35px;
+}
+
+.values {
+	margin: 50px;
 }
 
 .emailsupport {
@@ -74,16 +108,23 @@ input:focus {
 	color: lightgrey;
 }
 
-.brain, {
-	height: 200px;
+.brain {
+	position: relative;		
+	padding-top: 40px;
 }
 
 .cart {
 	width: 200px;
+	position: relative;
+  top: 10%;
+  transform: translateY(20%);
 }
 
 .relax {
-	height: 150px;
+	height: 110px;
+		position: relative;
+  /*top: 10%;*/
+  transform: translateY(70%);
 }
 
 .hireexpert {
@@ -92,6 +133,7 @@ input:focus {
 
 .hiretext {
 	color: #fff;
+	/*padding-top: 16px;*/
 }
 
 .sitback {
@@ -100,6 +142,32 @@ input:focus {
 
 .sitbacktext {
 	color: #777;
+}
+
+.fontregular {
+	font-family: 'robotoregular'
+}
+
+.fontlight {
+	font-family: 'robotolight'
+}
+
+.fontthin {
+	font-family: 'robotothin'
+}
+
+.sectionheader {
+	margin-bottom: 40px;
+	/*font-size: 2.5em;*/	
+}
+
+.fa-lock {
+	font-size: 4em;
+}
+
+.fa-fighter-jet {
+	font-size: 9em;
+	padding-top: 80px;
 }
 
  
