@@ -91,9 +91,9 @@ input:focus {
 	margin: 50px;
 }
 
-.emailsupport {
-	margin-top: 50px;
-}
+/*.emailsupport {
+	margin-top: 30px;
+}*/
 
 .getnotified {
 	margin-bottom: 60px;
@@ -169,6 +169,10 @@ input:focus {
 .fa-fighter-jet {
 	font-size: 9em;
 	padding-top: 80px;
+}
+
+.whitelogo {
+	height: 3em;
 }
 
  
