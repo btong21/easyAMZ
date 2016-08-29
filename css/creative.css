@@ -238,7 +238,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
-  opacity: 0;
+  opacity: 0.8;
   display: block;
   background: #323C47;
   position: absolute;
