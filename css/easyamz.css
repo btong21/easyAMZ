@@ -108,24 +108,6 @@ input:focus {
 	color: lightgrey;
 }
 
-.brain {
-	position: relative;		
-	padding-top: 40px;
-}
-
-.cart {
-	width: 200px;
-	position: relative;
-  top: 10%;
-  transform: translateY(20%);
-}
-
-.relax {
-	height: 110px;
-		position: relative;
-  /*top: 10%;*/
-  transform: translateY(70%);
-}
 
 .hireexpert {
 	background: #FF9900;
@@ -141,7 +123,7 @@ input:focus {
 }
 
 .sitbacktext {
-	color: #777;
+	color: #323C47;
 }
 
 .fontregular {
@@ -161,11 +143,6 @@ input:focus {
 	/*font-size: 2.5em;*/	
 }
 
-.fa-lock {
-	font-size: 4em;
-	padding: 0px;
-}
-
 .fa-fighter-jet {
 	font-size: 9em;
 	padding-top: 80px;
@@ -175,5 +152,13 @@ input:focus {
 	height: 3em;
 }
 
- 
+.bigicon {
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+
+.headicons {
+	height: 64px;
+}
+
 
