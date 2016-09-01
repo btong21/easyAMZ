@@ -25,9 +25,10 @@
 }
 
 .logotop {
-	height: 40px;
-	margin-left: 10px;
-	margin-top: -5px;
+	height: 25px;
+	margin-left: 20%;
+	margin-top: 5px;
+	float:left;
 }
 
 #mainNav {
