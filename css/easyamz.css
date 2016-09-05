@@ -191,8 +191,6 @@ input:focus {
 }
 
 
-
-
 }
 
 .navbar-right{
@@ -226,12 +224,23 @@ border-radius: 4em;
   	background-color: #ff9900;
   }
 
-  .footer p{
-  	font-size: 12px;
-  }
-
   .social{
-  	padding:10px;
+  	color: lightgrey;
+  	margin-left:30px;
+  	/*margin-bottom: 80px;*/
   }
 
+.footer {
+	background-color:#323C47;
+	color: lightgrey;
+	padding: 40px;
+}
 
+.disclaim {
+	color: lightgrey;
+	font-size: 0.8em;
+}
+
+.facebooklink {
+	display: none;
+}
