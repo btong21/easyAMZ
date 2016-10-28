@@ -32,7 +32,9 @@
 }
 
 #mainNav {
-	padding-bottom: 15px;
+	/*padding-bottom: 15px;*/
+
+	
 }
 
 
@@ -166,3 +168,79 @@ input:focus {
 	color: white;
 }*/
 
+
+
+
+@media (min-width: 768px) {
+
+.navbar-nav>li>.page-scroll-nav{
+	border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+
+
+}
+
+.container-fluid>.navbar-header{
+	margin-left: 133px;
+	margin-right: 200px;
+	
+
+}
+
+
+}
+
+.navbar-right{
+	margin-right: 100px;
+	margin-top: 10px;
+
+}
+
+.btnservice{
+	 border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 2em;
+    width: 350px;
+    padding: 2px;
+    text-align: center;
+
+
+}
+ 
+.btn-primary {
+border-radius: 4em;
+    color: #03a1df;
+    font-size: .8em;
+    font-weight: 800;
+    letter-spacing: .17em;
+    margin: 3.5em 0;
+    padding: 1.5em 4.0em;
+    background-color: #fff;
+
+}
+  .btn-primary:hover{
+  	background-color: #ff9900;
+  }
+
+  .social{
+  	color: lightgrey;
+  	margin-left:30px;
+  	/*margin-bottom: 80px;*/
+  }
+
+.footer {
+	background-color:#323C47;
+	color: lightgrey;
+	padding: 40px;
+}
+
+.disclaim {
+	color: lightgrey;
+	font-size: 0.8em;
+}
+
+.facebooklink {
+	display: none;
+}
